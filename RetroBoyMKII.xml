@@ -11,7 +11,7 @@ version         0.8
    <view name="system">
       <carousel name="systemcarousel">
         <type>horizontal</type>
-        <pos>0.0 0.0</pos>
+        <pos>0.0 0.28</pos>
         <logoAlignment>middle</logoAlignment>         
         <size>1 1</size>
         <logoScale>2.0</logoScale>
@@ -26,9 +26,9 @@ version         0.8
          <size>1 1</size>
          <zIndex>2</zIndex>                 
          <path>./_inc/images/background.png</path>
-      </image>                      
+      </image>
       <text name="systemInfo">     
-         <pos>0.0 0.592</pos>
+         <pos>0.0 0.92</pos>
          <backgroundColor>00000000</backgroundColor>
          <color>ffffff</color>
          <fontPath>./_inc/fonts/pixelmix.ttf</fontPath>
@@ -74,30 +74,6 @@ version         0.8
    </view> 
    
    <view name="detailed,video">
-	  <!--<image name="image_helper" extra="true">
-		<path>./_inc/images/bg_color.png</path>
-		<origin>0 0</origin>
-		<pos>0.23 0.61</pos>
-		<size>0.33 0.11</size>
-		<color>101010</color>
-        <zIndex>2</zIndex>  
-	  </image>
-	  <image name="image_helper2" extra="true">
-		<path>./_inc/images/bg_color.png</path>
-		<origin>0 0</origin>
-		<pos>0.23 0.75</pos>
-		<size>0.33 0.11</size>
-		<color>101010</color>
-        <zIndex>2</zIndex>  
-	  </image>
-	  <image name="image_helper3" extra="true">
-		<path>./_inc/images/bg_color.png</path>
-		<origin>0 0</origin>
-		<pos>0.23 0.89</pos>
-		<size>0.33 0.11</size>
-		<color>101010</color>
-        <zIndex>2</zIndex>  
-	  </image>-->
       <textlist name="gamelist">                          
          <pos>0.23 0.01</pos>
          <size>0.76 0.58</size>
@@ -107,9 +83,9 @@ version         0.8
    
    <view name="basic">
       <textlist name="gamelist">                          
-         <pos>0.03 0.19</pos>
-         <size>.937 0.69</size>
-         <alignment>center</alignment>                       
+         <pos>0.23 0.03</pos>
+         <size>0.76 0.96</size>
+         <alignment>left</alignment>                       
       </textlist>
    </view>
    
@@ -119,7 +95,7 @@ version         0.8
          <pos>0 0</pos>
          <size>1 1</size>        
          <path>./_inc/images/background_basic.png</path>
-         <zIndex>3</zIndex>          
+         <zIndex>1</zIndex>          
       </image>                
    </view> 
     
@@ -144,9 +120,9 @@ version         0.8
 
    <view name="video">   
       <video name="md_video">
-         <origin>0.5 0.5</origin>
-         <pos>0.75 0.66</pos>
-         <maxSize>0.45 0.45</maxSize>
+         <origin>0.5 0.6</origin>
+         <pos>0.775 0.834</pos>
+         <maxSize>0.40 0.40</maxSize>
          <delay>3</delay>
          <zIndex>2</zIndex>         
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
