@@ -62,12 +62,13 @@ version         0.8
       <textlist name="gamelist">      
          <selectorColor>efefeff0</selectorColor>
          <selectedColor>000000</selectedColor>
-         <primaryColor>efefeff0</primaryColor>
+         <primaryColor>efefefc0</primaryColor>
          <secondaryColor>3eb4ff</secondaryColor>
          <fontPath>./_inc/fonts/start.ttf</fontPath>
          <fontSize>0.045</fontSize>
          <forceUppercase>0</forceUppercase>
          <scrollSound>./_inc/sounds/select.wav</scrollSound>
+		 <selectorImagePath>./_inc/images/select.png</selectorImagePath>
 		 <horizontalMargin>0.01</horizontalMargin>
          <zIndex>3</zIndex>                          
       </textlist>
@@ -104,7 +105,7 @@ version         0.8
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>        
-         <path>./_inc/images/background_video.png</path>
+         <path>./_inc/images/bg.png</path>
          <zIndex>1</zIndex>         
       </image>                
    </view>     
